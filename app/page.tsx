@@ -14,16 +14,7 @@ const Home = () => {
 
     return (
           <>
-          <motion.div
-  variants={{
-    hidden: {opacity:0, y:100},
-    shown: {opacity:100, y:0},
-  }}
-  initial="hidden"
-  animate="shown"
-  transition={{duration: 0.35, delay: 0.15}}
-
-  >
+        
           
           <div className='w-full h-screen flex-col flex items-center justify-start bg-black bg-bmwface  bg-cover bg-center '>
          <Header />
@@ -88,7 +79,7 @@ const Home = () => {
 
          
     
-</motion.div>
+
       </>
     );
 };
